@@ -40,7 +40,7 @@ function FormularioUsuario({ agregarUsuario }) {
 
       <input
         type="text"
-        placeholder="Apellido"
+        placeholder="Apellido persona"
         value={apellido}
         onChange={(e)=>setApellido(e.target.value)}
       />
