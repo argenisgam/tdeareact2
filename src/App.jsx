@@ -11,7 +11,7 @@ function App() {
 
     setUsuarios([...usuarios, usuario]);
 
-    setMensaje("Usuario guardado correctamente");
+    setMensaje("El usuario se ha guardado bien");
 
   }
 
@@ -25,7 +25,7 @@ function App() {
 
       <h3>{mensaje}</h3>
 
-      <h2>Total usuarios: {usuarios.length}</h2>
+      <h2>Total usuarios trabajando: {usuarios.length}</h2>
 
       <TablaUsuarios usuarios={usuarios} />
 
